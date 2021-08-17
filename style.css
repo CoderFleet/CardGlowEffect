@@ -31,7 +31,9 @@ body{
     right: -4px;
     bottom: -4px;
     background: linear-gradient(315deg, #00ccff, #0e1538, #d400d0);
-    transform: skewX(2deg) skewY(4deg);;
+}
+.box::before:hover{
+     transform: skewX(2deg) skewY(4deg);
 }
 
 .box::after{
@@ -44,6 +46,10 @@ body{
     background: linear-gradient(315deg, #00ccff, #0e1538, #d400d0);
     transform: skewX(2deg) skewY(4deg);;
     filter: blur(50px);
+}
+
+.box::after:hover{
+    transform: skewX(2deg) skewY(4deg);
 }
 
 .box span{
